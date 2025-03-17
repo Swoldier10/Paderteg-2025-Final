@@ -1,0 +1,56 @@
+@import 'tailwindcss';
+
+
+.card {
+    perspective: 800px;
+}
+
+.card__content {
+    transform-style: preserve-3d;
+}
+
+.card:hover .card__content {
+    transform: rotateY(.5turn);
+}
+
+.card__front,
+.card__back {
+    backface-visibility: hidden;
+}
+
+.card__back {
+    transform: rotateY(.5turn);
+}
+
+.swiper-wrapper {
+    width: 100%;
+    height: max-content !important;
+    padding-bottom: 64px !important;
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+    position: relative;
+}
+
+.swiper-pagination-bullet {
+    background: #4f46e5;
+}
+
+.parent {
+    height: calc(1.3 * 100vh);
+
+    .part {
+        position: fixed;
+        background-color: #ccc;
+        height: 100%;
+        &.left {
+            width: 50%;
+            left: 0px;
+            z-index: 1;
+        }
+
+        &.right {
+            width: 50%;
+            right: 0px;
+        }
+    }
+}
