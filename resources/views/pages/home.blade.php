@@ -40,7 +40,7 @@
                 </div>
             </div>
             <x-elements.image class="w-full object-cover"
-                              src="{{ asset('assets/pages/home/images/home-1.JPG') }}"/>
+                              src="{{ asset('assets/home-1.JPG') }}"/>
         </div>
 
         <div>
@@ -55,7 +55,7 @@
             </x-sections.text-section>
             <x-elements.video
                 class="w-full object-cover"
-                src="{{ asset('assets/pages/home/videos/PaderTeg Home-2 Video-1.mp4') }}"/>
+                src="{{ asset('assets/PaderTeg Home-2 Video-1.mp4') }}"/>
         </div>
 
         <div>
