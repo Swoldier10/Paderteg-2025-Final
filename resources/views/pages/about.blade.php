@@ -3,52 +3,46 @@
 @section('title', 'About')
 
 @section('content')
-    <div class="px-[5%] py-16 md:py-24 lg:py-28 flex flex-col gap-20">
+    <div class="px-[5%] py-16 md:py-24 lg:py-28 flex flex-col gap-18">
         <div class="mt-10">
-            <x-sections.text-section>
-                <x-typography.header text="Our Vision"/>
+            <div class="flex flex-col lg:flex-row text-center justify-center gap-4">
                 <div>
-                    <x-typography.paragraph text="At Paderteg, we connect industries through innovative solutions and a
+                    <x-typography.header text="Our Vision"/>
+                    <x-typography.paragraph class="mt-4" text="At Paderteg, we connect industries through innovative solutions and a
                     commitment to excellence."/>
-                    <div class="mt-6 flex flex-wrap gap-4 md:mt-8">
+                    <div class="mt-6 flex flex-wrap gap-4 md:mt-8 justify-center">
                         <x-buttons.simple-button label="Contact"/>
                     </div>
                 </div>
-            </x-sections.text-section>
-            <x-elements.image class="mx-auto" src="{{ asset('assets/pages/home/images/logo.jpeg') }}"/>
+            </div>
         </div>
 
-        <div
-            class="grid grid-cols-1 gap-y-12 md:grid-flow-row md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20"
-        >
-            <div>
+        <div>
+            <div class="max-w-2xl mx-auto text-center">
                 <x-typography.header class="mb-4" text="Our Journey: From 2004 to Today"/>
                 <x-typography.paragraph text="Paderteg Kabeltechnik has evolved significantly since its inception in
                         2004. Our journey reflects a commitment to innovation and excellence
                         in cable assembly and system technology."/>
-                <div class="grid grid-cols-1 gap-6 py-2 sm:grid-cols-2">
-                    <x-section.title-description
-                        title="Founding Years"
-                        description="Founded in 2004, we began our mission to connect the world through
-                                technology."
-                    />
-                    <x-section.title-description
-                        title="BMB Kabeltechnik"
-                        description="Acquired by BMB Kabeltechnik in 2011, expanding our capabilities
-                                and reach."
-                    />
-                    <x-section.title-description
-                        title="CIS Automotive SRL"
-                        description="The Group CIS electronic acquires BMB Kabeltechnik"
-                    />
-                    <x-section.title-description
-                        title="Paderteg Kabeltechnik SRL"
-                        description="Company goes back to it's original name"
-                    />
-                </div>
             </div>
-            <div>
-                <x-elements.image src="{{ asset('assets/pages/home/images/people.JPG') }}"/>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center mt-18 gap-4">
+                <x-section.title-description
+                    title="2004 - Founding Years"
+                    description="Founded in 2004, we began our mission to connect the world through
+                                technology."
+                />
+                <x-section.title-description
+                    title="2011 - BMB Kabeltechnik"
+                    description="Acquired by BMB Kabeltechnik in 2011, expanding our capabilities
+                                and reach."
+                />
+                <x-section.title-description
+                    title="2015 - CIS Automotive SRL"
+                    description="The Group CIS electronic acquires BMB Kabeltechnik"
+                />
+                <x-section.title-description
+                    title="2025 - Paderteg Kabeltechnik SRL"
+                    description="Company goes back to it's original name"
+                />
             </div>
         </div>
 
@@ -63,7 +57,7 @@
                     Our commitment to quality and efficiency drives us to deliver
                     exceptional solutions that empower businesses worldwide."/>
             </div>
-            <x-elements.image src="{{ asset('assets/pages/home/images/machine-about-1.png') }}"/>
+            <x-elements.image src="{{ asset('assets/connecting-the-world.png') }}"/>
         </div>
 
         <div class="grid grid-cols-1 gap-y-12 md:grid-flow-row md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
@@ -87,7 +81,7 @@
                 </div>
             </div>
             <div>
-                <x-elements.image src="{{ asset('assets/pages/home/images/management-team.jpg') }}"/>
+                <x-elements.image src="{{ asset('assets/reclaiming-our-identity.JPG') }}"/>
             </div>
         </div>
 
@@ -97,9 +91,9 @@
                 <x-typography.paragraph text="Strategically positioned for optimal production efficiency."/>
             </div>
             <div
-                class="grid auto-cols-fr grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-12 md:grid-cols-[0.5fr_1fr] md:gap-x-20 md:gap-y-16"
+                class="flex flex-col gap-8 lg:flex-row w-full relative"
             >
-                <div class="grid auto-cols-fr grid-cols-1 gap-x-4 gap-y-10">
+                <div class="w-1/3 grid auto-cols-fr grid-cols-1 gap-x-4 gap-y-10">
                     <x-cards.location-card
                         title="Manufacturing site"
                         sub-title="Copsa Mica"
@@ -123,7 +117,7 @@
                         href="https://www.google.com/maps/place/CIS+AUTOMOTIVE/@46.1087911,24.214978,2208m/data=!3m1!1e3!4m6!3m5!1s0x474b8b8cec0bed73:0xb2fd8ab4fe3c49c0!8m2!3d46.1087913!4d24.2182941!16s%2Fg%2F11nfs7g0c4?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D"
                     />
                 </div>
-                <div id="map" class="w-full h-[300px] lg:h-full"></div>
+                <div id="map" class="lg:w-2/3 w-full lg:absolute right-0 h-[300px] lg:h-full"></div>
             </div>
         </div>
 
@@ -188,7 +182,7 @@
                     />
                 </div>
                 <div class="relative order-last w-full sm:col-span-2 lg:order-none lg:col-span-1">
-                    <x-elements.image src="{{ asset('assets/pages/home/images/collaboration-image.jpg') }}"/>
+                    <x-elements.image src="{{ asset('assets/collaboration.jpg') }}"/>
                 </div>
                 <div class="grid w-full grid-cols-1 gap-x-20 gap-y-12 md:gap-y-16">
                     <x-cards.borderless-card-with-icon
@@ -258,7 +252,7 @@
                 </div>
             </div>
             <div class="flex items-center justify-center">
-                <x-elements.image src="{{ asset('assets/pages/home/images/innovation-image.png') }}"/>
+                <x-elements.image src="{{ asset('assets/discover.png') }}"/>
             </div>
         </div>
     </div>
