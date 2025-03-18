@@ -3,9 +3,9 @@
 @section('title', 'Automotive')
 
 @section('content')
-    <div class="px-[5%] py-16 md:py-24 lg:py-28 flex flex-col gap-20">
+    <div class="px-[5%] py-16 md:py-24 lg:py-28 flex flex-col gap-20 my-12 md:mt-0 ">
         <div class="flex flex-col">
-            <div class="rb-12 mb-12 md:mb-18 lg:mb-20">
+            <div class="rb-12 md:mb-18 lg:mb-20">
                 <div class="w-full max-w-lg">
                     <x-typography.header text="Connecting Solutions for a Brighter Tomorrow"/>
                     <x-typography.paragraph class="mt-4"

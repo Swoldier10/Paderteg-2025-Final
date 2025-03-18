@@ -21,7 +21,7 @@
         </div>
     </div>
 
-    <div class="px-[5%] py-16 md:py-24 lg:py-28">
+    <div class="px-[5%] py-16 md:py-24 lg:py-28 mb-12">
         <div
             class="grid grid-cols-1 gap-y-12 md:grid-flow-row md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20"
         >

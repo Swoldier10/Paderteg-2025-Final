@@ -3,7 +3,7 @@
 @section('title', 'Industry')
 
 @section('content')
-    <div class="px-[5%] py-16 md:py-24 lg:py-28">
+    <div class="px-[5%] py-16 md:py-24 lg:py-28 my-12">
         <div
             class="grid grid-cols-1 items-start gap-x-12 gap-y-5 md:grid-cols-2 lg:gap-x-20 lg:gap-y-16"
         >

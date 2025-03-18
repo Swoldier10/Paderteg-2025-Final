@@ -3,7 +3,7 @@
 @section('title', 'Home Appliance')
 
 @section('content')
-    <div class="flex flex-col gap-12 px-[5%] py-16 md:py-24 lg:py-28">
+    <div class="flex flex-col gap-12 px-[5%] py-16 md:py-24 lg:py-28 my-12">
         <div class="flex flex-col gap-5 md:flex-row md:gap-12 lg:gap-20">
             <div class="w-full max-w-lg">
                 <x-typography.header text="Home Appliance Solutions"/>
