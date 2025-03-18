@@ -18,7 +18,7 @@
                     </div>
                 </div>
             </x-sections.text-section>
-            <x-elements.video src="PaderTeg Home Video-1.mp4"
+            <x-elements.video src="PaderTeg_Home_Video-1.mp4"
                               class="w-full object-cover"/>
         </div>
 
@@ -55,7 +55,7 @@
             </x-sections.text-section>
             <x-elements.video
                 class="w-full object-cover"
-                src="PaderTeg Home-2 Video-1.mp4"/>
+                src="PaderTeg_Home-2_Video-1.mp4"/>
         </div>
 
         <div>
