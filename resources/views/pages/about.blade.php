@@ -99,21 +99,21 @@
                         sub-title="Copsa Mica"
                         description="over 3.000 m² production area,
                             warehouse & offices"
-                        address="Aleea Primăverii 11, Copșa Mică 555400"
+                        address="Aleea Salcamilor 18, Copșa Mică 555400"
                         href="https://www.google.com/maps/place/Aleea+Primăverii+11,+Copșa+Mică+555400/@46.1118904,24.2286564,235m/data=!3m1!1e3!4m6!3m5!1s0x474b8b9707dda2c5:0xfa15166384addb34!8m2!3d46.1128352!4d24.2294168!16s%2Fg%2F11l1jrlqjw?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D"
                     />
                     <x-cards.location-card
                         title="Extended Manufacturing site"
                         sub-title="Copsa Mica"
-                        description="1,200 m² production area and warehouse. IATF certified production location"
-                        address="Aleea Primăverii 11, Copșa Mică 555400"
+                        description="1,200 m² production area and warehouse."
+                        address="Aleea Salcamilor 19, Copșa Mică 555400"
                         href="https://www.google.com/maps/place/Aleea+Primăverii+11,+Copșa+Mică+555400/@46.1118904,24.2286564,235m/data=!3m1!1e3!4m6!3m5!1s0x474b8b9707dda2c5:0xfa15166384addb34!8m2!3d46.1128352!4d24.2294168!16s%2Fg%2F11l1jrlqjw?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D"
                     />
                     <x-cards.location-card
                         title="Manufacturing site"
                         sub-title="Axente Sever"
                         description="over 1.000 m² production area, warehouse & offices Expansion up to 30,000 m²"
-                        address="DN14B, Copșa Mică 555400"
+                        address="DN 14B, Nr 1B, 557025 Axente Sever"
                         href="https://www.google.com/maps/place/CIS+AUTOMOTIVE/@46.1087911,24.214978,2208m/data=!3m1!1e3!4m6!3m5!1s0x474b8b8cec0bed73:0xb2fd8ab4fe3c49c0!8m2!3d46.1087913!4d24.2182941!16s%2Fg%2F11nfs7g0c4?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D"
                     />
                 </div>

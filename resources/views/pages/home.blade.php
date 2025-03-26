@@ -6,12 +6,9 @@
     <div class="px-[5%] py-20 md:py-24 lg:py-28 flex flex-col gap-20">
         <div class="mt-8">
             <x-sections.text-section>
-                <x-typography.header text="Connecting Solutions for a Brighter Tomorrow"/>
+                <x-typography.header text="Solution that Connect Performance with Reliability"/>
                 <div>
-                    <x-typography.paragraph text="At Paderteg Connecting Solutions, we specialize in innovative cable
-                        assembly and system technology. Our commitment to quality and
-                        efficiency drives us to connect industries and enhance operational
-                        excellence."/>
+                    <x-typography.paragraph text="At Paderteg Kabeltechnik, we provide innovative wiring and system integration solutions. With a strong focus on quality and efficiency, we help industries optimize performance, improve reliability, and ensure seamless connectivity in their operations."/>
                     <div class="mt-6 flex flex-wrap gap-4 md:mt-8">
                         <x-buttons.simple-button label="Learn More"/>
                         <x-buttons.simple-button label="Contact"/>
@@ -24,7 +21,7 @@
 
         <div class="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
             <div class="flex flex-col gap-6">
-                <x-typography.header text="A Legacy of Innovation and Growth"/>
+                <x-typography.header text="A Legacy of Innovation, Build on Innovation"/>
 
                 <x-typography.paragraph text="Since our founding in 2004, we have evolved significantly, adapting to
                         the changing landscape of technology and industry. Our journey
@@ -45,8 +42,8 @@
 
         <div>
             <x-sections.text-section>
-                <x-typography.header text="Connecting the World with Reliable and Efficient Technology Solutions"/>
-                <x-typography.paragraph text="                    At Paderteg Connecting Solutions, we are dedicated to delivering
+                <x-typography.header text="Connecting the World Through Reliable & Efficient Solutions"/>
+                <x-typography.paragraph text="At Paderteg Kabeltechnik, we are dedicated to delivering
                     innovative technology that ensures seamless connectivity across
                     industries. Our mission is to provide high-quality cable assembly and
                     system solutions that enhance operational efficiency. With a commitment
@@ -130,13 +127,8 @@
 
         <div>
             <x-sections.text-section>
-                <x-typography.header text="Discover Our Impact: Key Statistics About Paderteg Connecting
-                        Solutions"/>
-                <x-typography.paragraph text="With over 500 dedicated employees, Paderteg Connecting Solutions has
-                        been a leader in cable assembly and system technology since 2004. Our
-                        commitment to innovation and efficiency has allowed us to establish
-                        three manufacturing sites in Romania. We proudly serve a diverse range
-                        of industries, ensuring quality and reliability in every project."/>
+                <x-typography.header text="About – Paderteg Kabeltechnik"/>
+                <x-typography.paragraph text="With over 500 dedicated employees, Paderteg Kabeltechnik produced cable assemblies since 2004. Our commitment to innovation and efficiency has allowed us to establish three manufacturing sites in Romania. We proudly serve a diverse range of industries, ensuring quality and reliability in every project."/>
             </x-sections.text-section>
 
             <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
