@@ -37,7 +37,7 @@
                 </div>
             </div>
             <x-elements.image class="w-full object-cover"
-                              src="{{ asset('assets/home-1.JPG') }}"/>
+                              src="{{ asset('assets/home-1.JPG') }}?v={{ filemtime(public_path('assets/home-1.JPG')) }}"/>
         </div>
 
         <div>

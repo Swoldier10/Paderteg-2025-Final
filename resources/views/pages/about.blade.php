@@ -81,7 +81,7 @@
                 </div>
             </div>
             <div>
-                <x-elements.image src="{{ asset('assets/reclaiming-our-identity.JPG') }}"/>
+                <x-elements.image src="{{ asset('assets/reclaiming-our-identity.JPG') }}?v={{ filemtime(public_path('assets/reclaiming-our-identity.JPG')) }}"/>
             </div>
         </div>
 
