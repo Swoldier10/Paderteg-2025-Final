@@ -7,7 +7,6 @@ Route::get('/', function () {
     return view('pages.home');
 });
 
-
 Route::get('/automotive', function () {
     return view('pages.automotive');
 })->name('automotive');

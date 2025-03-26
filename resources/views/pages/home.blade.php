@@ -10,7 +10,7 @@
                 <div>
                     <x-typography.paragraph text="At Paderteg Kabeltechnik, we provide innovative wiring and system integration solutions. With a strong focus on quality and efficiency, we help industries optimize performance, improve reliability, and ensure seamless connectivity in their operations."/>
                     <div class="mt-6 flex flex-wrap gap-4 md:mt-8">
-                        <x-buttons.simple-button label="Learn More"/>
+                        <x-buttons.simple-button url="{{ route('about') }}" label="Learn More"/>
                         <x-buttons.simple-button label="Contact"/>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                 <x-typography.paragraph text="From local roots to global connections."/>
 
                 <div class="flex flex-wrap items-center gap-4">
-                    <x-buttons.simple-button label="Learn More"/>
+                    <x-buttons.simple-button url="{{ route('about') }}" label="Learn More"/>
                     <x-buttons.simple-button label="Contact"/>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                             committed to fostering a motivated workforce that drives our success
                             and supports our community."/>
                         <div class="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-                            <x-buttons.simple-button label="Learn More"/>
+                            <x-buttons.simple-button url="{{ route('about') }}" label="Learn More"/>
                             <x-buttons.simple-button label="Contact"/>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                         innovation and efficiency at every step."/>
             </x-sections.text-section>
             <div class="mt-4 mb-8 flex items-center justify-center gap-4 md:mt-18 lg:mt-20">
-                <x-buttons.simple-button label="Learn More"/>
+                <x-buttons.simple-button url="{{ route('about') }}" label="Learn More"/>
             </div>
             <div class="grid grid-cols-1 items-start gap-y-12 md:grid-cols-3 md:gap-x-8 lg:gap-x-12">
                 <x-cards.image-card
@@ -154,7 +154,7 @@
                         your needs."/>
                 <div class="flex flex-wrap gap-4 md:mt-4">
                     <x-buttons.simple-button label="Inquire"/>
-                    <x-buttons.simple-button label="Learn More"/>
+                    <x-buttons.simple-button url="{{ route('about') }}" label="Learn More"/>
                 </div>
             </div>
         </div>
