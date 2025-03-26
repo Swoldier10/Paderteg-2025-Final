@@ -168,7 +168,7 @@
             </div>
             <div class="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:gap-x-8 lg:gap-16 mb-20">
                 <x-cards.person-card
-                    avatar-src="{{ asset('assets/Milonean Ioan Marius.png') }}"
+                    avatar-src="{{ asset('assets/Milonean Ioan Marius.png') }}?v={{ filemtime(public_path('assets/Milonean Ioan Marius.png')) }}"
                     name="Milonean Ioan Marius"
                     role="Owner"
                     description="Leading our vision with a commitment to innovation and excellence."
@@ -176,7 +176,7 @@
                     email="neculai.inocentiu@gmail.com"
                 />
                 <x-cards.person-card
-                    avatar-src="{{ asset('assets/Anca Ganfalean.jpg') }}"
+                    avatar-src="{{ asset('assets/Anca Ganfalean.jpg') }}?v={{ filemtime(public_path('assets/Anca Ganfalean.jpg')) }}"
                     name="Anca Ganfalean"
                     role="Finance & HR"
                     description="Leading our vision with a commitment to innovation and excellence."
@@ -184,7 +184,7 @@
                     email="neculai.inocentiu@gmail.com"
                 />
                 <x-cards.person-card
-                    avatar-src="{{ asset('assets/Dura Cristian.png') }}"
+                    avatar-src="{{ asset('assets/Dura Cristian.png') }}?v={{ filemtime(public_path('assets/Dura Cristian.png')) }}"
                     name="Dura Cristian"
                     role="Sale & Engineering"
                     description="Leading our vision with a commitment to innovation and excellence."
@@ -192,7 +192,7 @@
                     email="neculai.inocentiu@gmail.com"
                 />
                 <x-cards.person-card
-                    avatar-src="{{ asset('assets/Stanciu Dana.png') }}"
+                    avatar-src="{{ asset('assets/Stanciu Dana.png') }}?v={{ filemtime(public_path('assets/Stanciu Dana.png')) }}"
                     name="Stanciu Dana"
                     role="Quality & EHS"
                     description="Leading our vision with a commitment to innovation and excellence."
@@ -200,7 +200,7 @@
                     email="neculai.inocentiu@gmail.com"
                 />
                 <x-cards.person-card
-                    avatar-src="{{ asset('assets/Necsuleu Cosmin.png') }}"
+                    avatar-src="{{ asset('assets/Necsuleu Cosmin.png') }}?v={{ filemtime(public_path('assets/Necsuleu Cosmin.png')) }}"
                     name="Necsuleu Cosmin"
                     role="Production & Technic"
                     description="Leading our vision with a commitment to innovation and excellence."
@@ -208,7 +208,7 @@
                     email="neculai.inocentiu@gmail.com"
                 />
                 <x-cards.person-card
-                    avatar-src="{{ asset('assets/Barac Ramona.png') }}"
+                    avatar-src="{{ asset('assets/Barac Ramona.png') }}?v={{ filemtime(public_path('assets/Barac Ramona.png')) }}"
                     name="Barac Ramona"
                     role="Logistics"
                     description="Leading our vision with a commitment to innovation and excellence."
@@ -216,7 +216,7 @@
                     email="neculai.inocentiu@gmail.com"
                 />
                 <x-cards.person-card
-                    avatar-src="{{ asset('assets/Oancea Gheorghe.png') }}"
+                    avatar-src="{{ asset('assets/Oancea Gheorghe.png') }}?v={{ filemtime(public_path('assets/Oancea Gheorghe.png')) }}"
                     name="Oancea Gheorghe"
                     role="IT"
                     description="Leading our vision with a commitment to innovation and excellence."
@@ -224,7 +224,7 @@
                     email="neculai.inocentiu@gmail.com"
                 />
                 <x-cards.person-card
-                    avatar-src="{{ asset('assets/Papara Carmen.png') }}"
+                    avatar-src="{{ asset('assets/Papara Carmen.png') }}?v={{ filemtime(public_path('assets/Papara Carmen.png')) }}"
                     name="Papara Carmen"
                     role="Purchasing"
                     description="Leading our vision with a commitment to innovation and excellence."
