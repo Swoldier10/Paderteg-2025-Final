@@ -172,64 +172,71 @@
                     name="Milonean Ioan Marius"
                     role="Owner"
                     description="Leading our vision with a commitment to innovation and excellence."
-                    phone="0745345390"
-                    email="neculai.inocentiu@gmail.com"
+                    phone="+40 371 502 900"
+                    email="M.Milonean@paderteg.ro"
                 />
+
                 <x-cards.person-card
                     avatar-src="{{ asset('assets/Anca Ganfalean.jpg') }}?v={{ filemtime(public_path('assets/Anca Ganfalean.jpg')) }}"
                     name="Anca Ganfalean"
                     role="Finance & HR"
                     description="Leading our vision with a commitment to innovation and excellence."
-                    phone="0745345390"
-                    email="neculai.inocentiu@gmail.com"
+                    phone="+40 726 741 178"
+                    email="A.Ganfalean@paderteg.ro"
                 />
+
                 <x-cards.person-card
                     avatar-src="{{ asset('assets/Dura Cristian.png') }}?v={{ filemtime(public_path('assets/Dura Cristian.png')) }}"
                     name="Dura Cristian"
                     role="Sale & Engineering"
                     description="Leading our vision with a commitment to innovation and excellence."
-                    phone="0745345390"
-                    email="neculai.inocentiu@gmail.com"
+                    phone="+40 371 502 895"
+                    email="N.Dura@paderteg.ro"
                 />
+
                 <x-cards.person-card
                     avatar-src="{{ asset('assets/Stanciu Dana.png') }}?v={{ filemtime(public_path('assets/Stanciu Dana.png')) }}"
                     name="Stanciu Dana"
                     role="Quality & EHS"
                     description="Leading our vision with a commitment to innovation and excellence."
-                    phone="0745345390"
-                    email="neculai.inocentiu@gmail.com"
+                    phone="+40 730 540 716"
+                    email="D.Stanciu@paderteg.ro"
                 />
+
                 <x-cards.person-card
                     avatar-src="{{ asset('assets/Necsuleu Cosmin.png') }}?v={{ filemtime(public_path('assets/Necsuleu Cosmin.png')) }}"
                     name="Necsuleu Cosmin"
                     role="Production & Technic"
                     description="Leading our vision with a commitment to innovation and excellence."
-                    phone="0745345390"
-                    email="neculai.inocentiu@gmail.com"
+                    phone="+40 269 840 223"
+                    email="C.Necsuleu@paderteg.ro"
                 />
+
                 <x-cards.person-card
                     avatar-src="{{ asset('assets/Barac Ramona.png') }}?v={{ filemtime(public_path('assets/Barac Ramona.png')) }}"
                     name="Barac Ramona"
                     role="Logistics"
                     description="Leading our vision with a commitment to innovation and excellence."
-                    phone="0745345390"
-                    email="neculai.inocentiu@gmail.com"
+                    phone="+40 371 502 939"
+                    email="R.Barac@paderteg.ro"
                 />
+
                 <x-cards.person-card
                     avatar-src="{{ asset('assets/Oancea Gheorghe.png') }}?v={{ filemtime(public_path('assets/Oancea Gheorghe.png')) }}"
                     name="Oancea Gheorghe"
                     role="IT"
                     description="Leading our vision with a commitment to innovation and excellence."
-                    phone="0745345390"
-                    email="neculai.inocentiu@gmail.com"
+                    phone="+40 269 503 917"
+                    email="G.Oancea@paderteg.ro"
                 />
+
                 <x-cards.person-card
                     avatar-src="{{ asset('assets/Papara Carmen.png') }}?v={{ filemtime(public_path('assets/Papara Carmen.png')) }}"
                     name="Papara Carmen"
                     role="Purchasing"
                     description="Leading our vision with a commitment to innovation and excellence."
-                    phone="0745345390"
-                    email="neculai.inocentiu@gmail.com"
+                    phone="+40 371 502 901"
+                    email="C.Papara@paderteg.ro"
                 />
             </div>
         </div>
