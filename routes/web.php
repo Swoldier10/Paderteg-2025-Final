@@ -35,6 +35,10 @@ Route::get('/about', function () {
     return view('pages.about');
 })->name('about');
 
+Route::get('/resources', function (){
+    return view('pages.resources');
+})->name('resources');
+
 Route::get('/home', function (){
     return view('pages.home');
 })->name('home');
