@@ -15,7 +15,7 @@
                     </div>
                 </div>
             </x-sections.text-section>
-            <x-elements.video src="PaderTeg_Home_Video-1.mp4"
+            <x-elements.video src="{{ asset('storage/PaderTeg_Home_Video-1.mp4') }}"
                               class="w-full object-cover"/>
         </div>
 
